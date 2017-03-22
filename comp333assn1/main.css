@@ -1,0 +1,48 @@
+		body{padding: 0;margin:0;}
+		.centre {margin-left:auto;margin-right:auto;}
+		.hidden{display:none !important;}
+		.red{color:#FF0000;}
+		.width20{width:20%;}
+		
+		header {background:#1e88e5;}
+		header .h1{width:100%;text-align:center;padding: 30px 0; color:#fff;}
+		header .container{width:100%;float:right;}
+		header .container #openlogin{margin-right:20px;float:right;}
+		
+		.stockscontents,.specStockContent{margin-left:auto;margin-right:auto;margin-top:60px;width:20%;}
+		
+		table{border-collapse: collapse;border-spacing: 0;}
+		.stockscontents table tr:nth-child(2n-1) {background-color: #f5f5f5;transition: all .125s ease-in-out;}
+		.stockscontents table tr:hover{background-color:#bbdefb;cursor:pointer;}
+		.stockscontents table tr th{padding:10px;}
+		.stockscontents table tr td
+		{padding: 8px;
+		line-height: 14px;
+		vertical-align: top;
+		border-top: 1px solid #ddd;}
+		.specStockContent table tr td{padding-left:20px;}	
+
+		
+		.btn,#btnSaveNotes
+		{display: inline-block;
+		font-weight: 400;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		border: 1px solid transparent;
+		padding:5px 8px;
+		color: #fff;
+		background-color: #428bca;
+		border-color: #357ebd;}
+		
+		.btn:hover,#btnSaveNotes:hover{background-color: #3276b1;border-color: #285e8e;}
+		
+		.loginINFO .centre{width:20%;}
+		.loginINFO .item {margin-bottom:10px;}
+		.loginINFO .item label{width:100px;float:left;}
+		.loginINFO .item label:hover{cursor:pointer;}
+		
+		.specStockContent table{float:left;}
+		.specStockContent #btnRemoveCompany{float:right;}
+		.specStockContent table tr th{text-align:left;}
+		#btncloseSpecINFO {float:right;margin-bottom:10px;}

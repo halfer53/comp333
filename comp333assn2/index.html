@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="CSS/weather.css"/>
+    <script type="text/javascript" src="Javascript/weather_widget.js"></script>
+    <title>The Weather Monitor</title>
+  </head>
+ <body>
+    <p>
+      Nulla facilisi. Maecenas lectus lectus, molestie non, imperdiet ut, fringilla eu, eros. Aliquam elit arcu, pretium
+      pretium, eleifend id, dictum sed, felis. Fusce augue. Proin lectus ante, venenatis ac, ultricies sagittis, suscipit et,
+      nulla. Mauris condimentum nibh et ante.
+      <!-- This creates the div to be used for the first widget-->
+    </p>
+    <div id='widget-container-1'>
+    </div>
+    
+    <p>
+      Vivamus quis enim sodales diam luctus placerat. Aenean quis metus a ipsum commodo
+      fermentum. Fusce sollicitudin sagittis nisi. Curabitur laoreet diam a velit. Aenean interdum nisi at quam. Proin dictum
+      accumsan tellus. Vestibulum sed elit. Vivamus libero. Aliquam cursus mi vel arcu. Etiam eget nibh. Etiam porta. Aenean
+      ipsum.
+    </p>
+    <p>
+      Ut ultricies pede eu turpis. Pellentesque dapibus suscipit massa. Class aptent taciti sociosqu ad litora torquent per
+      conubia nostra, per inceptos hymenaeos. Donec eget mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+      per inceptos hymenaeos. Phasellus eleifend interdum justo. Sed in leo quis dui nonummy tempor. Donec imperdiet dui.
+      Praesent lectus felis, nonummy vel, condimentum hendrerit, dignissim nec, nisl. Praesent quis magna aliquet turpis
+      tincidunt ultrices. Pellentesque turpis. Praesent eget felis a diam ultrices vulputate. Mauris dolor lacus, ullamcorper
+      et, imperdiet bibendum, tincidunt sed, tortor. Suspendisse imperdiet nunc. Fusce malesuada elit sed dolor. Morbi sed arcu
+      eu mauris pulvinar sodales. Donec rhoncus, ipsum eu feugiat molestie, enim enim luctus nibh, non aliquam ipsum urna sed
+      felis. Donec volutpat. Donec rhoncus, turpis nec adipiscing pulvinar, lacus odio suscipit enim, in cursus lacus massa et
+      tellus. Maecenas quis sapien sed velit eleifend dictum.
+        <!-- This creates the div to be used for the second widget-->
+    </p>
+    
+    
+    <p>
+      In hac habitasse platea dictumst. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Phasellus sagittis varius pede. Aenean ullamcorper molestie mauris. Proin nisl. Suspendisse vel quam. Vivamus in nisi et
+      ante imperdiet placerat. Morbi orci metus, eleifend nec, imperdiet vitae, scelerisque a, nunc. Praesent hendrerit urna
+      feugiat tellus. Sed consectetuer nulla non erat. Proin et tortor dictum felis elementum congue. Praesent at tellus eget
+      quam malesuada faucibus. Integer tempor. Suspendisse dignissim, orci a molestie venenatis, mi elit sodales orci, id
+      consectetuer neque nulla et mi. Morbi elit magna, feugiat eu, auctor eget, volutpat ac, metus. Nullam sit amet diam.
+      Maecenas at augue ut augue elementum faucibus. Mauris tempus, tellus vitae tincidunt vehicula, mauris velit eleifend eros,
+      id pulvinar turpis purus in risus. Suspendisse at risus in nulla condimentum convallis. Morbi non ligula.
+    </p>
+    <p>
+      Ut bibendum pede eget enim. Donec vitae est. Donec ligula dui, ullamcorper sit amet, commodo sed, aliquam non, sapien.
+      Duis pharetra, leo non sodales malesuada, nulla ipsum dignissim tellus, quis pharetra nisi sem at mauris. Aliquam porta
+      sapien at lectus. Quisque luctus nunc non enim. Nunc interdum. Integer viverra commodo enim. Suspendisse eleifend, metus
+      non lacinia tincidunt, ante justo lobortis lorem, ut pharetra ante tortor ac arcu. Aenean mattis eleifend pede. Integer
+      eget mauris id nunc vestibulum molestie. Sed rhoncus tincidunt metus. Vestibulum ante ipsum primis in faucibus orci luctus
+      et ultrices posuere cubilia Curae;
+    </p>
+    <div id='widget-container-2'></div>
+  </body>
+  <!-- This creates a instances of the WeatherWidget object and passes the respective div as a parameter-->
+  <script type="text/javascript">
+	var widget_container_1 = document.getElementById('widget-container-1');
+	var monitor_1 = new WeatherWidget(widget_container_1);
+	var widget_container_2 = document.getElementById('widget-container-2');
+	var monitor_2 = new WeatherWidget(widget_container_2);
+  </script>
+</html>

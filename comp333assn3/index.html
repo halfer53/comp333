@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Places Searchbox</title>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+  </head>
+  <body>
+    <div class="left-panel">
+      <h4>which town would you like to explore?</h4>
+      <input id="town-input" class="controls" type="text" placeholder="Search Box" value="Hamilton, Waikato, New Zealand">
+      <div id="townsSearched" class="collection"></div>
+      <h4>select a place of interest</h4>
+      <input id="place-input" class="controls" type="text" value="">
+      <div id="places-nearby" class="collection"></div>
+    </div>
+
+    <div class="right-panel">
+
+    <div id="map"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="request.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMCC4YdelDN2baFMvSQOWEGShubLCX_is&libraries=places&callback=initAutocomplete" async defer></script>
+  </body>
+</html>

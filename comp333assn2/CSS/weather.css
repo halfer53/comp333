@@ -1,0 +1,65 @@
+body {
+    font: 100% arial, sans-serif;
+}
+
+input {
+    margin: 6px;
+    border-style:inset;
+    border-color: #FFFF66;
+    border-width: 1px;
+    font: 100% arial, sans-serif;
+}
+
+.monitor {
+    border: 3px solid #F9F7BA;
+    float: left;
+    -moz-box-shadow: 7px 7px 8px #818181;
+    /* browser specific CSS, generally avoid these */
+    margin: 20px;
+}
+
+.title {
+    background-color: #FFD700;
+    text-indent: 7px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section_label {
+    font: 100% arial, sans-serif;
+    padding-left: 2px;
+}
+
+.toolbar {
+    padding: 5px;
+}
+
+
+
+
+
+
+
+.list {
+    padding: 5px;
+    list-style-type: none;
+}
+.list li span{
+	padding-right:15px;
+}
+
+.section {
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+
+.numeric {
+    font: 100% arial, sans-serif;
+    text-align:right;
+    float:right;
+}
+

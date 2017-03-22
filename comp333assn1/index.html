@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+	
+	  <title>Stock Management</title>
+	  <meta name="description" content="Stock Management">
+	  <meta name="author" content="Bruce Tan">
+	 <script type="text/javascript" src="request.js"></script> 
+	 <link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+	<header>
+		<h1 class="h1">stocks management</h1>
+		<div class="container">
+			<button id="openlogin" onclick="openlogin()" class='btn'>Log In</button>
+		</div>
+	</header>
+	
+	<div class="loginINFO hidden mt-60" id="loginINFO">
+		<div class="centre">
+			<div class="item">
+				 <label>User Name:</label>
+				 <input type="text" id="username" name="username" value="">
+			</div>
+			<div class="item">
+				<label>Password:</label>
+				<input type="password" id="password" name="password" value="">
+			</div>
+			<div class="item">
+				<button class="btnlogin btn" onclick="JavaScript:loginRequest()">Log In</button>
+			</div>
+		</div>
+ 	</div>
+ 	
+ 	<div id="stockscontents" class="stockscontents">
+ 		
+ 	</div>
+ 	
+ 	<div id="specStockContent" class="specStockContent">
+ 		
+ 	</div>
+	
+</body>
+</html>
